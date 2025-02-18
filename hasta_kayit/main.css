@@ -1,0 +1,87 @@
+.header{
+    text-align: center;
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color:wheat;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 25;
+}
+.navbar li{
+    float: left;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.menu{
+    margin-top: 0px;
+    height: 100%;
+}
+.menu ul{
+    list-style-type: none;
+    background-color: #669bbc;
+    text-align: center;
+    margin:10px;
+    margin-left: 0px;
+    padding: 0;
+    border-radius: 10px;
+}
+.form label, form input{
+    padding: 10px;
+    margin: 0;
+    font-size: 15px;
+}
+.menu a{
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.menu a:hover{
+    background-color:blue;
+}
+.form{
+    background-color: #fdf0d5;
+    padding: 40px;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: gray; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: auto;
+}
